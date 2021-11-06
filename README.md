@@ -21,7 +21,7 @@ passwd= "root" (Update to the password of your MySQL connection)
 With the code updated to your MySQL connection settings, save and run the file.  
 This should then create a database on your MySQL localhost named POSDatabase  
 
-**Step 2**
+**Step 2**  
 With the database created from the CreateDatabase.py file, the data needs to be populated. This is done through the PopulateDatabase.py file.  
 This file will need the MySQL connections updated if necessary.  
 user= "root" (Update to the name of your MySQL connection username)  
@@ -29,7 +29,7 @@ passwd= "root" (Update to the password of your MySQL connection)
 database= "POSDatabase" (Should be POSDatabase if you left the database name the same in the previous file)  
 With the connections updated, save and run the file. This should popualate the database with the necessary data  
 
-**Step 3**
+**Step 3**  
 With the data created, the Loginintegration.py file can be opened. This file will run the POSsible interface. Ensure that the connections are up to date for your MySQL connection.
 user= "root" (Update to the name of your MySQL connection username)  
 passwd= "root" (Update to the password of your MySQL connection)  
@@ -37,6 +37,6 @@ database= "POSDatabase" (Should be POSDatabase if you left the database name the
 After this save and exit the file. 
 Note: Ensure the images from the repositroy are in the same directory as the code to allow for proper compiling. 
 
-**Step 4**
+**Step 4**  
 Now you can open the Registerintegrate1.py file. This file can be compiled without any edits. This should launch the Login/register feature.  
 Use the register feature to create a user. Once a user has been created you can login with the user details.  
