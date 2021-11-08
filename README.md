@@ -41,3 +41,31 @@ Note: Ensure the images from the repositroy are in the same directory as the cod
 **Step 4**  
 Now you can open the Registerintegrate1.py file. This file can be compiled without any edits. This should launch the Login/register feature.  
 Use the register feature to create a user. Once a user has been created you can login with the user details.  
+
+**Back of House Applications**
+To use the ordering system, import the app.py module into your application  
+the below functions are recommended for quick use  
+
+app.getallitems()  
+function used to retrieve items list  
+takes no arguments  
+
+app.orderC()  
+class object must be initialised to use ordering system  
+takes no arguments  
+
+app.orderC.additem()  
+this method populates the order with items  
+takes PRODUCT ID as required argument, QUANTITY as optional argument  
+
+app.orderC.clearitem()  
+this method removes an item from the order  
+takes PRODUCT ID as required argument  
+
+app.orderC.clearorder()  
+wipes the order of all items  
+takes no arguments  
+
+app.orderC.processpayment()  
+calculates totals, confirms order, processes payment, logs order  
+takes no arguments  
